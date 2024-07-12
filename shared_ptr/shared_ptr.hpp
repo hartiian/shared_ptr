@@ -75,6 +75,6 @@ public:
     shared_ptr<T> lock() const;
 };
 
-#include "shared.inl"
+#include "shared.cpp"
 
-#endif // SHARED_H
+#endif 

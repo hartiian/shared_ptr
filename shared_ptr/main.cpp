@@ -1,4 +1,4 @@
-#include "shared.hpp"
+#include "shared_ptr.hpp"
 
 int main() {
     shared_ptr<int> sp1(new int(42));
